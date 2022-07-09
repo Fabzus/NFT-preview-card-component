@@ -21,8 +21,8 @@ This is a solution to the [NFT preview card component](https://www.frontendmento
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/Fabzus/NFT-preview-card-component)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [github](https://github.com/Fabzus/NFT-preview-card-component)
+- Live Site URL: [github](https://fabzus.github.io/NFT-preview-card-component/)
 
 ## My process
 
