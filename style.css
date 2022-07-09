@@ -1,0 +1,161 @@
+/* START RESET */
+html {
+  font-size: 10px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(217, 54%, 11%);
+  font-family: "Outfit", sans-serif;
+  color: hsl(215, 51%, 70%);
+}
+
+h1 {
+  color: white;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+p {
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.card {
+  background-color: hsl(216, 50%, 16%);
+}
+
+li:nth-child(1) {
+  color: hsl(178, 100%, 50%);
+  font-weight: 600;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+/* END RESET */
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: calc(100vh - 15px);
+}
+
+.card {
+  width: 29rem;
+  padding: 2rem;
+  border-radius: 1rem;
+}
+
+.card-img {
+  position: relative;
+}
+
+.img-responsive {
+  display: block;
+  max-width: 100%;
+  max-width: 25rem;
+  border-radius: 1rem;
+}
+
+.preview {
+  position: absolute;
+  background-color: rgba(0, 255, 247, 0);
+  padding: 10.1rem;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  border-radius: 1rem;
+  transition: background-color, opacity 0.6s;
+}
+
+.preview:hover {
+  opacity: 1;
+  background-color: rgba(0, 255, 247, 0.7);
+}
+
+.card-content {
+  margin-top: 2rem;
+}
+
+.card-content h1 {
+  margin-bottom: 1rem;
+  transition: all 0.3s;
+}
+
+.card-content h1:hover {
+  color: rgba(0, 255, 247, 1);
+}
+
+.card-price {
+  margin-top: 2rem;
+}
+.card-price ul {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+}
+
+.card-price li img {
+  height: 1.3rem;
+  margin-right: 0.5rem;
+}
+
+.card-price li {
+  font-size: 1.3rem;
+}
+
+.card-line {
+  margin-top: 1.5rem;
+  background-color: hsl(215, 32%, 27%);
+  display: block;
+  height: 0.1rem;
+}
+
+.card-footer {
+  margin-top: 1.5rem;
+  display: flex;
+  align-items: center;
+  align-content: center;
+}
+
+.card-footer img {
+  height: 3rem;
+  padding: 0.1rem;
+  border: 0.1rem solid white;
+  border-radius: 100%;
+}
+
+.card-footer p {
+  margin-left: 1rem;
+}
+
+.card-footer span {
+  color: white;
+  font-weight: 600;
+  transition: color 0.3s;
+}
+.card-footer span:hover {
+  color: hsl(178, 100%, 50%);
+}
